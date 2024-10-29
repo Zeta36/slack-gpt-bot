@@ -1,4 +1,4 @@
-class Config:
+class Config:media
     # Redis Configuration
     REDIS_HOST = "localhost"
     REDIS_PORT = 6379
