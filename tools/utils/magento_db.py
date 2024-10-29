@@ -6,9 +6,9 @@ class MagentoDBConnection:
         self.db_config = {
             'host': '127.0.0.1',
             'port': 3308,
-            'user': 'footdistrict_m2_read_only_user',
-            'password': 'DdvqLJUf4meSm45Uef1zN7aHKxOKAZOT',
-            'database': 'footdistrict_m2_db',
+            'user': 'm2_read_only_user',
+            'password': 'xxx',
+            'database': 'm2_db',
             'cursorclass': pymysql.cursors.DictCursor
         }
 
