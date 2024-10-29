@@ -1,0 +1,37 @@
+# Core dependencies
+slack-bolt==1.18.1          # Actualizado, última versión estable
+openai==1.12.0             # Versión actual correcta
+redis==5.0.1               # Versión actual correcta
+
+# Audio processing
+pydub==0.25.1              # Versión actual correcta
+ffmpeg-python==0.2.0       # Versión actual correcta
+
+# Web scraping and requests
+requests==2.31.0           # Versión actual correcta
+beautifulsoup4==4.12.3     # Versión actual correcta
+
+# API clients
+giphy-client==1.0.0        # Versión actual correcta
+
+# Utility libraries
+python-dateutil==2.8.2     # Versión actual correcta
+backoff==2.2.1             # Versión actual correcta
+zoneinfo==0.2.1            # Nuevo: necesario para el manejo de zonas horarias
+tzdata==2024.1             # Nuevo: datos de zonas horarias
+
+# Database
+PyMySQL==1.1.0             # Nuevo: para conexiones MySQL
+sshtunnel==0.4.0          # Nuevo: para túneles SSH si se necesita
+
+# HTTP server
+gunicorn==21.2.0           # Versión actual correcta
+
+# Logging and warnings
+warnings2==0.4.1           # Versión actual correcta
+
+# Development dependencies (opcional)
+pytest==8.0.2              # Para testing
+black==24.2.0              # Para formateo de código
+isort==5.13.2              # Para ordenar imports
+flake8==7.0.0             # Para linting
